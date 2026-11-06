@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="PlaylistTask" extends="Task">
+  <interface>
+    <field id="url" type="string" />
+    <field id="requestId" type="integer" />
+    <field id="result" type="string" />
+    <field id="error" type="string" />
+  </interface>
+  <script type="text/brightscript" uri="PlaylistTask.brs" />
+</component>

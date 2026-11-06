@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="PlaybackStatusTask" extends="Task">
+  <interface>
+    <field id="url" type="string" />
+    <field id="payload" type="string" />
+    <field id="result" type="integer" alwaysNotify="true" />
+  </interface>
+
+  <script type="text/brightscript" uri="PlaybackStatusTask.brs" />
+</component>
